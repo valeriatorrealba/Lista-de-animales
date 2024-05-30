@@ -19,3 +19,5 @@ consulta.
 Utilizar el siguiente modelo de Herencia (diagrama de clases) como base:
 
 ![modelo](screenshot/modelo.png)
+
+![desafio](screenshot/desafio.png)
