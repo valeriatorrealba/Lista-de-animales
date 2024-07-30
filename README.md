@@ -8,13 +8,13 @@ El desafío consiste en implementar un modelo de herencia en JavaScript utilizan
 
 Utilizar el siguiente modelo de Herencia (diagrama de clases) como base:
 
-![modelo](screenshot/modelo.png)
+![modelo](assets/screenshot/modelo.png)
 
 ## Vista Codificada
 
 A continuación, se muestra la imagen del resultado codificado:
 
-![desafio](screenshot/desafio.png)
+![desafio](assets/screenshot/desafio.png)
 
 ## Requerimientos
 
