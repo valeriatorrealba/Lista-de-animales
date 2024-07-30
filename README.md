@@ -1,23 +1,43 @@
-# Desafío opcional - Lista de animales
+# Desafío Opcional - Lista de Animales
 
-La clínica veterinaria Pet-XYZ requiere de un sistema en línea para que los médicos
-veterinarios y asistentes puedan guardar la información de tres tipo de animales en
-específico, como es el caso de Perros, Gatos y Conejos, debido a que son la mayor demanda
-por cantidad de casos al día por los momentos. Esto se realizará mediante la utilización de
-un formulario para identificar el tipo y datos del animal, en conjunto con los datos del dueño. 
+## Descripción
 
-Por lo tanto, el desafío consiste en llevar a un archivo JavaScript un modelo de Herencia
-(diagrama de clases) en específico, como se muestra en la primera imagen, implementado la
-nomenclatura de ES6, para así facilitar a los usuarios de la aplicación (clínica veterinaria)
-identificar a los animales y a sus dueños. Es importante recalcar, que cada dueño tiene una
-mascota y se pueden seleccionar solo tres tipos de mascotas: perros, gatos o conejos,
-igualmente se debe ingresar el motivo de la consulta o enfermedad con el nombre del animal
-y los datos del dueño (nombre, dirección y número telefónico) como se muestran en el
-formulario en la imagen 2. Todo esto con el propósito que se despliegue una lista al final del
-formulario con los datos del dueño y de la mascota, incluyendo la enfermedad o motivo de la
-consulta.
+La clínica veterinaria **Pet-XYZ** requiere un sistema en línea para que los médicos veterinarios y asistentes puedan registrar la información de tres tipos de animales: perros, gatos y conejos. El sistema debe permitir ingresar los datos del dueño y de la mascota a través de un formulario web, y mostrar los datos ingresados en una lista.
+
+El desafío consiste en implementar un modelo de herencia en JavaScript utilizando ES6, siguiendo el diagrama de clases proporcionado. El objetivo es permitir a los usuarios de la clínica identificar a los animales y sus dueños, y mostrar la información ingresada en una lista.
+
 Utilizar el siguiente modelo de Herencia (diagrama de clases) como base:
 
 ![modelo](screenshot/modelo.png)
 
+## Vista Codificada
+
+A continuación, se muestra la imagen del resultado codificado:
+
 ![desafio](screenshot/desafio.png)
+
+## Requerimientos
+
+1. **Crear las Clases en ES6**:
+   - Implementar las clases siguiendo la herencia indicada en el diagrama de clases.
+   - Utilizar la nomenclatura y características de ES6.
+
+2. **Métodos Get y Set**:
+   - Crear métodos `get` y `set` para la clase `Mascota`.
+
+3. **Método Get para Tipo**:
+   - Crear un método `get` en la clase `Animal` para la propiedad `tipo`, que retorne el mensaje: `"El tipo de animal es un: ${this.tipo}"`.
+
+4. **Método `datosPropietario`**:
+   - Implementar el método `datosPropietario` en la clase correspondiente, que pueda ser accedido desde las clases derivadas.
+
+5. **Captura de Elementos del Formulario**:
+   - Captar los elementos del formulario con JavaScript.
+   - Identificar el tipo de animal seleccionado para crear la instancia correspondiente de la clase `Mascota`.
+
+6. **Mostrar Datos**:
+   - Mostrar una lista con los datos del propietario y la mascota, incluyendo el motivo de la consulta, cuando el usuario haga clic en el botón "Agregar".
+
+## Autor
+
+Este proyecto fue desarrollado por **Valeria Torrealba**.
