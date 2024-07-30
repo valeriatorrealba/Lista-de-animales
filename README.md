@@ -4,7 +4,8 @@
 
 La clínica veterinaria **Pet-XYZ** requiere un sistema en línea para que los médicos veterinarios y asistentes puedan registrar la información de tres tipos de animales: perros, gatos y conejos. El sistema debe permitir ingresar los datos del dueño y de la mascota a través de un formulario web, y mostrar los datos ingresados en una lista.
 
-El desafío consiste en implementar un modelo de herencia en JavaScript utilizando ES6, siguiendo el diagrama de clases proporcionado. El objetivo es permitir a los usuarios de la clínica identificar a los animales y sus dueños, y mostrar la información ingresada en una lista.
+El desafío consiste en implementar un modelo de herencia en JavaScript utilizando ES6, siguiendo el diagrama de clases proporcionado. El objetivo es permitir a los usuarios de la clínica identificar a los animales y sus dueños, y mostrar la información ingresada en 
+una lista.
 
 Utilizar el siguiente modelo de Herencia (diagrama de clases) como base:
 
